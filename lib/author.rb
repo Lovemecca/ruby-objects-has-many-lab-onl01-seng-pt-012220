@@ -9,7 +9,10 @@ class Author
   def add_post (post) 
   end 
   
-  def post
+  def posts 
+    Post.all 
+  end 
+  
   def add_post_by_title(name, genre)
     song = Post.new(name, genre)
     add_post(post)

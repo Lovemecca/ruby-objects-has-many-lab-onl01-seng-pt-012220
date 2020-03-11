@@ -4,12 +4,12 @@ class Author
   
   def initialize (name)
     @name= name 
-    @post= [] 
   end 
   
   def add_post (post) 
   end 
   
+  def post
   def add_post_by_title(name, genre)
     song = Post.new(name, genre)
     add_post(post)
